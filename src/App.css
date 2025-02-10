@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.popup, .context {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  display: block;
+}
