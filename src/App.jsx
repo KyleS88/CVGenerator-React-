@@ -48,7 +48,7 @@ const App = () => {
   }
 
   const handleCVGeneration = () => {
-    (!personInfo.name.length && !personInfo.email.length && !personInfo.phone.length && !eduInfo.schoolName.length && !eduInfo.title.length && !eduInfo.gradDate.length && !pracInfo.length)? 
+    (!personInfo.name.length || !personInfo.email.length || !personInfo.phone.length || !eduInfo.schoolName.length || !eduInfo.title.length || !eduInfo.gradDate.length || !pracInfo.length)? 
       setPopUp(true):
       setGenerate(true);
   }
